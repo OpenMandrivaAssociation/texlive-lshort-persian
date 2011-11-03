@@ -1,5 +1,11 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/lshort/persian
+# catalog-date 2009-11-09 23:05:00 +0100
+# catalog-license pd
+# catalog-version 4.26:2009-08-04
 Name:		texlive-lshort-persian
-Version:	4.26.20090804
+Version:	4.26:2009-08-04
 Release:	1
 Summary:	Persian (Farsi) introduction to LaTeX
 Group:		Publishing
@@ -40,6 +46,7 @@ introduction.
 %doc %{_texmfdistdir}/doc/latex/lshort-persian/title.tex
 %doc %{_texmfdistdir}/doc/latex/lshort-persian/transpreface.tex
 %doc %{_texmfdistdir}/doc/latex/lshort-persian/typeset.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ introduction.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
