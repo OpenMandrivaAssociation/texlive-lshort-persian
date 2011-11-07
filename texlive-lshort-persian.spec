@@ -5,7 +5,7 @@
 # catalog-license pd
 # catalog-version 4.26:2009-08-04
 Name:		texlive-lshort-persian
-Version:	4.26:2009-08-04
+Version:	4.26
 Release:	1
 Summary:	Persian (Farsi) introduction to LaTeX
 Group:		Publishing
