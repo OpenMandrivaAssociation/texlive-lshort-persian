@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-persian.do
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 A Persian (Farsi) translation of Oetiker's (not so) short
@@ -46,7 +44,6 @@ introduction.
 %doc %{_texmfdistdir}/doc/latex/lshort-persian/title.tex
 %doc %{_texmfdistdir}/doc/latex/lshort-persian/transpreface.tex
 %doc %{_texmfdistdir}/doc/latex/lshort-persian/typeset.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,5 +54,3 @@ introduction.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
