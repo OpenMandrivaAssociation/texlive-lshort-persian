@@ -6,7 +6,7 @@
 # catalog-version 4.26:2009-08-04
 Name:		texlive-lshort-persian
 Version:	4.26
-Release:	1
+Release:	2
 Summary:	Persian (Farsi) introduction to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/persian
