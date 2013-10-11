@@ -1,12 +1,12 @@
-# revision 15878
+# revision 31296
 # category Package
 # catalog-ctan /info/lshort/persian
-# catalog-date 2009-11-09 23:05:00 +0100
+# catalog-date 2013-07-28 14:28:30 +0200
 # catalog-license pd
-# catalog-version 4.26:2009-08-04
+# catalog-version 5.01
 Name:		texlive-lshort-persian
-Version:	4.26
-Release:	2
+Version:	5.01
+Release:	1
 Summary:	Persian (Farsi) introduction to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/persian
@@ -54,18 +54,3 @@ introduction.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.26-2
-+ Revision: 753476
-- Rebuild to reduce used resources
-
-* Mon Nov 07 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.26-1
-+ Revision: 727163
-- texlive-lshort-persian
-- texlive-lshort-persian
-- texlive-lshort-persian
-- texlive-lshort-persian
-- texlive-lshort-persian
-
