@@ -6,7 +6,7 @@
 # catalog-version 5.01
 Name:		texlive-lshort-persian
 Version:	5.01
-Release:	2
+Release:	3
 Summary:	Persian (Farsi) introduction to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/persian
