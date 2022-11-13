@@ -1,18 +1,12 @@
-# revision 31296
-# category Package
-# catalog-ctan /info/lshort/persian
-# catalog-date 2013-07-28 14:28:30 +0200
-# catalog-license pd
-# catalog-version 5.01
 Name:		texlive-lshort-persian
-Version:	5.01
-Release:	10
+Version:	31296
+Release:	1
 Summary:	Persian (Farsi) introduction to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/persian
 License:	PD
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-persian.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-persian.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-persian.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-persian.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -47,7 +41,7 @@ introduction.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
