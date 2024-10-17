@@ -3,7 +3,7 @@ Version:	31296
 Release:	2
 Summary:	Persian (Farsi) introduction to LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/lshort/persian
+URL:		https://www.ctan.org/tex-archive/info/lshort/persian
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-persian.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-persian.doc.r%{version}.tar.xz
